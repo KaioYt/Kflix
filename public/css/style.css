@@ -1,0 +1,144 @@
+body::-webkit-scrollbar {
+    width: 8px;         
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: none;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #c7c7c7aa;    
+    border-radius: 20px;      
+    border:  none;  
+  }
+  
+  
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      list-style: none;
+      text-decoration: none;
+  }
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) %, rgba(0,25,31,1) 100%);
+}
+
+h1{
+    color: chocolate;
+}
+
+.form{
+    width: 100%;
+}
+
+.form-config{
+    width: 40%;
+    height: auto;
+    background-color: rgba(230, 230, 230, 0.205);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form-config a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    margin-top: 5px;
+    background-color: #198754;
+    padding: 8px 20px 8px;
+    border-radius: 15px;
+}
+
+.form-config form input[type="password"]{
+    width: 80%;
+    height: 55px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.719);
+    font-size: 20px;
+}
+
+.form-config form input[type="email"]{
+    width: 80%;
+    height: 55px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.719);
+    font-size: 20px;
+}
+
+.form-config form input[type="submit"] {
+    width: 40%;
+    height: 40px;
+    border-radius: 15px;
+}
+
+
+.form-config label{
+    font-weight: 500;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.categoria a{
+    background-color: #166d44;
+    padding: 8px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+    transition: 0.3s all;
+}
+
+.categoria a:hover{
+    transition: 0.3s all;
+    background-color: #1b8b57;
+}
+
+.efeito:hover{
+    transition: 0.1s all;
+    transform: scale(1.1);
+}
+
+.efeitoCont{
+    transition-duration: 1s;
+}
+
+.footer-1{
+    width: 100%;
+    height: 125px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    text-align: center;
+    padding: 35px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.footer-1 h5 a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-config {
+        width: 96%;
+    }
+
+    .carousel{
+        width: 100%;
+    }
+  }
+
+  

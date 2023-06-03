@@ -1,0 +1,26 @@
+<%- include('partials/head.ejs') %>
+<body>
+    <div class="principal">
+        <div class="container">
+            <div class="title text-center">
+                <br>
+                <h1>Kflix - Login</h1>
+            </div>
+            <br>
+            
+            <div class="form">
+                <div class="form-config">
+                    <form action="/logado" method="post">
+                        <label for="">Digite Seu E-Mail</label>
+                        <div><input type="email" class="btn btn-ligth" name="email" id="" placeholder="Digite Seu E-Mail"></div><br>
+                        <label for="">Digite Sua Senha</label>
+                        <div><input type="password" class="btn btn-ligth" name="senha" id="" placeholder="Digite Sua Senha"></div><br>
+                        <p><a href="/cadastro">Cadastro</a></p>
+                        <div><input type="submit" class="btn btn-success" name="" id="" value="Logar"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<%- include('partials/footer.ejs') %>
